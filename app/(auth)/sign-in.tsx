@@ -1,7 +1,5 @@
-import React from "react";
+import SignInScreen from "@/src/features/auth/screens/SıgnInScreen";
 
-const login = () => {
-  return <div>login</div>;
-};
-
-export default login;
+export default function SignInRoute() {
+  return <SignInScreen />;
+}
