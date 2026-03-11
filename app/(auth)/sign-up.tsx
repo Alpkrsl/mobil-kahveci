@@ -1,7 +1,5 @@
-import React from "react";
+import SignUpScreen from "@/src/features/auth/screens/SignUpScreen";
 
-const register = () => {
-  return <div>register</div>;
-};
-
-export default register;
+export default function SignUpRoute() {
+  return <SignUpScreen />;
+}
